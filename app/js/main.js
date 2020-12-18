@@ -58,13 +58,14 @@ const objHeight = () =>{
     let HeightTextRed = document.querySelector('.text-red').getBoundingClientRect();
     console.log(HeightTextRed);
 };
-
+progressAnim();
+scrollAnim();
 window.addEventListener('scroll',()=>{
     progressAnim();
     heightText();
     scrollAnim();
   //  objHeight();
-    scrollAnim();
+   
 });
 
 
